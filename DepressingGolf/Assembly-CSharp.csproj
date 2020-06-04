@@ -55,17 +55,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Ball.cs" />
-     <Compile Include="Assets\FakeHoleProject\Scripts\ChangeBallLayer.cs" />
-     <Compile Include="Assets\StrokeAngleIndicator.cs" />
-     <Compile Include="Assets\StrokeCountUI.cs" />
-     <Compile Include="Assets\StrokeForceUI.cs" />
-     <Compile Include="Assets\StrokeManager.cs" />
-     <Compile Include="Assets\UncapPhisics.cs" />
-     <None Include="Assets\FakeHoleProject\Materials &amp; Textures\Ball.shader" />
-     <None Include="Assets\FakeHoleProject\Materials &amp; Textures\Hole.shader" />
-     <None Include="Assets\FakeHoleProject\Materials &amp; Textures\DepthMask.shader" />
-     <None Include="Assets\FakeHoleProject\README.txt" />
+     <Compile Include="Assets\Prefabs\Rain\Prefab\BaseRainScript.cs" />
+     <Compile Include="Assets\Prefabs\Rain\Prefab\RainCollision.cs" />
+     <Compile Include="Assets\Prefabs\Rain\Prefab\RainScript.cs" />
+     <Compile Include="Assets\Prefabs\Rain\Prefab\RainScript2D.cs" />
+     <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\ChangeBallLayer.cs" />
+     <Compile Include="Assets\Scripts\EndLevelScrpit.cs" />
+     <Compile Include="Assets\Scripts\FollowBallScript.cs" />
+     <Compile Include="Assets\Scripts\MenuScript.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\StrokeAngleIndicator.cs" />
+     <Compile Include="Assets\Scripts\StrokeCountUI.cs" />
+     <Compile Include="Assets\Scripts\StrokeForceUI.cs" />
+     <Compile Include="Assets\Scripts\StrokeManager.cs" />
+     <Compile Include="Assets\Scripts\UncapPhisics.cs" />
+     <Compile Include="Assets\Scripts\WrongHole.cs" />
+     <None Include="Assets\Materials &amp; Textures\Ball.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Materials &amp; Textures\WrongHole.shader" />
+     <None Include="Assets\Materials &amp; Textures\Hole.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Prefabs\Rain\Prefab\RainShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\3D Models\Rusty Vehicles\Info.txt" />
+     <None Include="Assets\Materials &amp; Textures\DepthMask.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\3D Models\Rocks\readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\3D Models\Rusty Vehicles\CullOffAlpha.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Mateusz Ryczek/Desktop/GRA/DepressingGolfOnTheRoad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
